@@ -65,6 +65,7 @@ directory structure."
                           "repl")
                         haskell-process-args-cabal-repl))
     ('stack-ghci (nconc `(,haskell-process-path-stack
+                          "--nix"
                           "ghci")
                         haskell-process-args-stack-ghci))))
 
